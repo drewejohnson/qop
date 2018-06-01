@@ -1,3 +1,15 @@
+# Some bash functions for working with PBS jobs
+# 
+# Copyright (c) 2018 Andrew Johnson, GTRC
+# Goverened by MIT License
+# More info at https://github.com/drewejohnson/qop
+#
+# $ qop-release [N]
+#     Release N jobs from a UserHold. If not given, release all
+# $ qop-hold [N]
+#     Apply a UserHold to N jobs. If not given, apply the hold to all
+# 
+
 #TODO Option to reverse order of jobs released/held
 
 _job_iterator() {
